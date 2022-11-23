@@ -48,3 +48,47 @@ ul{
     font-size: 25px;
     margin: 10%;
 }
+/*Text*/
+.info h1{
+    margin:30px 40px;
+}
+.info p{
+    margin: 10px 40px;
+    font-size: 125%;
+}
+.info ul{
+    list-style: disc;
+    margin: 0 60px;
+}
+.info ul li{
+    margin-bottom: 10px;
+}
+/*Special*/
+.special{
+    display: flex;
+}
+/*Table*/
+.plane{
+    display: flex;
+    flex-direction: column;
+    margin: 3%;
+}
+.table-program{
+    background-color: #cae1ec;
+    margin-top: 5%;
+}
+.table-formation{
+    background-color: #cae1ec;
+}
+/*Img*/
+.image{
+    display: flex;
+    flex-direction: column;
+    margin-right: 5%;
+}
+img{
+    width: 260px;
+    margin-top: 15%;
+    border-radius: 10%;
+    border: gray solid;
+}
